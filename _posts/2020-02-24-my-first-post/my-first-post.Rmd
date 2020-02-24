@@ -15,7 +15,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Check it out. I can code. 
+#Check it out. I can code. 
 ```{r plot}
 library(ggplot2)
 ggplot(mpg, aes(displ, cty)) +

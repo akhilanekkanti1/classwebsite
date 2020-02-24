@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Akhila's Blog</title>
+    <link>https://akhilanekkanti1.github.io/classwebsite/</link>
+    <atom:link href="https://akhilanekkanti1.github.io/classwebsite/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Akhila's Blog
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>My First Post</title>
+      <dc:creator>Akhila Nekkanti</dc:creator>
+      <link>https://akhilanekkanti1.github.io/classwebsite/posts/2020-02-24-my-first-post</link>
+      <description>A short description of the post.</description>
+      <guid>https://akhilanekkanti1.github.io/classwebsite/posts/2020-02-24-my-first-post</guid>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://akhilanekkanti1.github.io/classwebsite/posts/2020-02-24-my-first-post/my-first-post_files/figure-html5/unnamed-chunk-1-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Welcome to Akhila's Blog</title>
+      <dc:creator>Akhila Nekkanti</dc:creator>
+      <link>https://akhilanekkanti1.github.io/classwebsite/posts/welcome</link>
+      <description>Welcome to our new blog, Akhila's Blog. We hope you enjoy 
+reading what we have to say!</description>
+      <guid>https://akhilanekkanti1.github.io/classwebsite/posts/welcome</guid>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
