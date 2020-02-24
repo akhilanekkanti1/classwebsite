@@ -1,0 +1,18 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Akhila's Blog",
+    "description": "Welcome to our new blog, Akhila's Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Akhila Nekkanti",
+        "url": "https://github.com/akhilanekkanti1"
+      }
+    ],
+    "date": "2020-02-24",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-02-24T10:38:02-08:00",
+    "input_file": {}
+  }
+]
