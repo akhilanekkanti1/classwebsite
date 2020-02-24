@@ -12,7 +12,23 @@
     "date": "2020-02-24",
     "categories": [],
     "preview": {},
-    "last_modified": "2020-02-24T10:38:02-08:00",
-    "input_file": {}
+    "last_modified": "2020-02-24T11:01:02-08:00",
+    "input_file": "welcome.utf8.md"
+  },
+  {
+    "path": "posts/2020-02-24-my-first-post/",
+    "title": "My First Post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Akhila Nekkanti",
+        "url": "https://github.com/akhilanekkanti1"
+      }
+    ],
+    "date": "2020-02-24",
+    "categories": [],
+    "preview": "posts/2020-02-24-my-first-post/my-first-post_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2020-02-24T10:59:21-08:00",
+    "input_file": "my-first-post.utf8.md"
   }
 ]

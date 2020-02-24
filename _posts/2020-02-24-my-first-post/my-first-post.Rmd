@@ -1,0 +1,27 @@
+---
+title: "My First Post"
+description: |
+  A short description of the post.
+author:
+  - name: Akhila Nekkanti
+    url: https://github.com/akhilanekkanti1
+date: 02-24-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Check it out. I can code. 
+```{r plot}
+library(ggplot2)
+ggplot(mpg, aes(displ, cty)) +
+  geom_point(color = "grey70") +
+  geom_smooth() +
+  theme_minimal()
+
+```
+
