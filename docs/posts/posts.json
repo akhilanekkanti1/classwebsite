@@ -1,5 +1,23 @@
 [
   {
+    "path": "posts/2020-02-26-my-second-post/",
+    "title": "My Second Post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Akhila Nekkanti",
+        "url": "https://github.com/akhilanekkanti1"
+      }
+    ],
+    "date": "2020-02-26",
+    "categories": [],
+    "preview": "posts/2020-02-26-my-second-post/my-second-post_files/figure-html5/plot1-1.png",
+    "last_modified": "2020-02-26T10:35:43-08:00",
+    "input_file": "my-second-post.utf8.md",
+    "preview_width": 1248,
+    "preview_height": 1344
+  },
+  {
     "path": "posts/2020-02-24-my-first-post/",
     "title": "My First Post",
     "description": "A short description of the post.",

@@ -1,0 +1,89 @@
+---
+title: "My Second Post"
+description: |
+  A short description of the post.
+author:
+  - name: Akhila Nekkanti
+    url: https://github.com/akhilanekkanti1
+date: 02-26-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      fig.height = 7)
+
+library(tidyverse)
+library(gt)
+theme_set(theme_minimal(20))
+
+```
+
+```{r plot1}
+
+ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth()+
+  labs(title = "Default plot")
+
+
+```
+
+```{r plot2, layout = "l-body-outset"}
+
+ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth()+
+  labs(title = "Body Outset Example")
+
+
+```
+
+
+```{r plot3, layout = "l-page"}
+
+ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth()+
+  labs(title = "L-Page Example")
+
+```
+
+
+```{r plot4, layout = "l-screen"}
+
+ggplot(mpg, aes(displ, cty)) +
+  geom_point() +
+  geom_smooth()+
+  labs(title = "L-Page Example")
+
+```
+<aside>
+
+this plot is HUGE!!
+
+<aside>
+
+<aside>
+```{r aside-table, echo = FALSE}
+
+mpg %>% 
+  head() %>% 
+  select(manufacturer, model, displ, cty) %>% 
+  gt::gt()
+
+```
+
+<\aside>
+
+That table is too hard to read. So to make it bigger we can use l-screen or l-page
+
+
+```{r table-full, layout = "l-screen"}
+
+mpg %>% 
+reactable::reactable()
+
+```

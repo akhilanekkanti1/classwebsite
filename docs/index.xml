@@ -7,7 +7,16 @@
     <description>Akhila's Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>My Second Post</title>
+      <dc:creator>Akhila Nekkanti</dc:creator>
+      <link>https://akhilanekkanti1.github.io/classwebsite/posts/2020-02-26-my-second-post</link>
+      <description>A short description of the post.</description>
+      <guid>https://akhilanekkanti1.github.io/classwebsite/posts/2020-02-26-my-second-post</guid>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://akhilanekkanti1.github.io/classwebsite/posts/2020-02-26-my-second-post/my-second-post_files/figure-html5/plot1-1.png" medium="image" type="image/png" width="1248" height="1344"/>
+    </item>
     <item>
       <title>My First Post</title>
       <dc:creator>Akhila Nekkanti</dc:creator>
